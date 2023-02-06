@@ -14,5 +14,7 @@ public class diferenca {
         CALC = ((A * B) - (C * D));
 
         System.out.println("DIFERENCA = " + CALC);
+
+        sc.close();
     }
 }

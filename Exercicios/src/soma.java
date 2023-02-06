@@ -4,11 +4,13 @@ public class soma {
 
         Scanner sc = new Scanner(System.in);
 
-        int A,B,MED;
+        int A,B,SOMA;
 
         A = sc.nextInt();
         B = sc.nextInt();
-        MED = A + B;
-        System.out.println("SOMA = " + MED);
+        SOMA = A + B;
+        System.out.println("SOMA = " + SOMA);
+
+        sc.close();
     }
 }

@@ -7,8 +7,7 @@ public class raioDoCirculo {
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
 
-        double raio, calc;
-        double pi = 3.14159;
+        double raio, calc, pi = 3.14159;
         raio = sc.nextDouble();
 
         calc = pi * Math.pow(raio, 2);

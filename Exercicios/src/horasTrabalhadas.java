@@ -16,5 +16,7 @@ public class horasTrabalhadas {
         salario = hora * valorHora;
 
         System.out.printf( "NUMBER = %d\nSALARY = %.2f", funcionario, salario);
+
+        sc.close();
     }
 }

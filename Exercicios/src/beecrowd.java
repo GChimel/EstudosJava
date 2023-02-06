@@ -24,5 +24,6 @@ public class beecrowd {
 
         System.out.printf("Media = %.1f\n", med);
 
+        sc.close();
     }
 }
