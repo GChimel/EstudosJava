@@ -1,19 +1,17 @@
+package CursoUdemy;
+
 import java.util.Scanner;
-public class diferenca {
+public class soma {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
-        int A, B, C, D, CALC;
+        int A,B,SOMA;
 
         A = sc.nextInt();
         B = sc.nextInt();
-        C = sc.nextInt();
-        D = sc.nextInt();
-
-        CALC = ((A * B) - (C * D));
-
-        System.out.println("DIFERENCA = " + CALC);
+        SOMA = A + B;
+        System.out.println("SOMA = " + SOMA);
 
         sc.close();
     }

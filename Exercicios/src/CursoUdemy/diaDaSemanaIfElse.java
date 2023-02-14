@@ -1,3 +1,5 @@
+package CursoUdemy;
+
 import java.util.Scanner;
 
 public class diaDaSemanaIfElse {

@@ -1,3 +1,5 @@
+package CursoUdemy;
+
 import java.util.Scanner;
 import java.util.Locale;
 
