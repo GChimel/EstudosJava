@@ -1,3 +1,5 @@
+package beecrowd;
+
 import java.util.Scanner;
 public class multiplos {
     public static void main(String[] args) {
@@ -10,10 +12,10 @@ public class multiplos {
         B = sc.nextInt();
 
         if (A % B == 0 || B % A == 0) {
-            System.out.println("São multiplos");
+            System.out.println("São beecrowd.multiplos");
         }
         else {
-            System.out.println("Não são multiplos");
+            System.out.println("Não são beecrowd.multiplos");
         }
         sc.close();
     }

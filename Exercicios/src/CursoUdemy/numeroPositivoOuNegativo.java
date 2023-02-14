@@ -1,3 +1,5 @@
+package CursoUdemy;
+
 import java.util.Scanner;
 public class numeroPositivoOuNegativo {
     public static void main(String[] args) {
