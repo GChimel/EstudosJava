@@ -4,33 +4,38 @@ public class gasolinaWhile {
 
         Scanner sc = new Scanner(System.in);
 
-
-        int gasolina = 0;
         int alcool = 0;
+        int gasolina = 0;
         int diesel = 0;
 
-        System.out.println("Tipos de combustivel: \n - 1 Alcool\n - 2 Gasolina \n - 3 Diesel\n");
+        System.out.println("Preferência de produtos \n 1- Alcool\n 2- Gasolina\n 3- Diesel\n");
 
-        System.out.println("Infome o tipo de combustivel que você utiliza: ");
+        System.out.println("Digite o código do seu produto preferido!");
+        int preferencia = sc.nextInt();
 
-        int tipo = sc.nextInt();
-        while (tipo != 4) {
-            if (tipo == 1) {
+        while (preferencia != 4) {
+            if (preferencia == 1) {
                 alcool += 1;
             }
-            else if (tipo == 2) {
-                gasolina += 2;
+            else if (preferencia == 2) {
+                gasolina += 1;
             }
-            else if (tipo == 3) {
+            else if (preferencia == 3) {
                 diesel += 1;
             }
-//            System.out.println("Informe um número válido!");
-            tipo = sc.nextInt();
+            else {
+                System.out.println("Código inválido, digite novamente: ");
+            }
+            System.out.println("Para encerar o processo digite 4\nPara adicionar mais produtos digite o seu código");
+            preferencia = sc.nextInt();
         }
-        System.out.println("MUITO OBRIGADO!");
-        System.out.println("Alcool: " + alcool);
-        System.out.println("Gasolina: " + gasolina);
-        System.out.println("Diesel: " + diesel);
 
+        System.out.println("Muito obrigado!\nSeus produtos preferidos são:\n");
+
+        System.out.println("Alcool " + alcool);
+        System.out.println("Gasolina " + gasolina);
+        System.out.println("Diesel " + diesel);
+
+        sc.close();
     }
 }
