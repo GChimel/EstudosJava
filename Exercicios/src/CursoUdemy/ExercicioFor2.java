@@ -17,10 +17,10 @@ public class ExercicioFor2 {
             int x = sc.nextInt();
 
             if (x >= 10 && x <= 20) {
-                somain = somain + i;
+                somain = somain + 1;
             }
             else {
-                somaout = somaout + i;
+                somaout = somaout + 1;
             }
         }
         System.out.printf("%d in\n", somain);
