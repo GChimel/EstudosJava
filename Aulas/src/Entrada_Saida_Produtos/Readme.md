@@ -8,4 +8,4 @@ Fazer um progrma para ler os dados de um produto em estoque (nome, preço e quan
 
 Para resolver este problema, você deve criar uma CLASSE conforme o projeto abaixo:
 
-<img src="C:\Users\gchim\OneDrive\Área de Trabalho\Projects\EstudoJava\Util\projectClass.png" width="500" height="300">
+<img src="/EstudoJava/Aulas/Entrada_Saida_Produtos/Util/projectClass.png" width="500" height="300">
