@@ -8,4 +8,4 @@ Fazer um progrma para ler os dados de um produto em estoque (nome, preço e quan
 
 Para resolver este problema, você deve criar uma CLASSE conforme o projeto abaixo:
 
-<img src="Util/projectClass.png" width="500" height="300">
+<img src="Assets/projectClass.png" width="400" height="200">
