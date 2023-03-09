@@ -13,16 +13,33 @@ public class Program {
 
         Product product = new Product();
 
-        System.out.print("Enter product data: ");
+        System.out.println("Enter product data: ");
 
-        System.out.println("Name: ");
+        System.out.print("Name: ");
         product.name = sc.nextLine();
-        System.out.println("Price: ");
+        System.out.print("Price: ");
         product.price = sc.nextDouble();
-        System.out.println("Quantity: ");
+        System.out.print("Quantity: ");
         product.quantity = sc.nextInt();
 
-        System.out.printf(product.name + ", " + product.price + ", " + product.quantity);
+        System.out.println(); // Jump-line
+        System.out.println("Product data: " + product);
+
+        System.out.println(); // Jump-line
+        System.out.print("Enter the number of products to be added in stock: ");
+        int quantity = sc.nextInt();
+        product.AddProducts(quantity);
+
+        System.out.println(); // Jump-line
+        System.out.println("Updated data: " + product);
+
+        System.out.println(); // Jump-line
+        System.out.print("Enter the number of products to be reoved from stock: ");
+        quantity = sc.nextInt();
+        product.RemoveProducts(quantity);
+
+        System.out.println(); // Jump-line
+        System.out.println("Updated data: " + product);
 
         sc.close();
     }
