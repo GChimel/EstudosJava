@@ -1,0 +1,16 @@
+package Salario_Porcentagem.entities;
+
+public class Employee {
+
+    public String Name;
+    public double GrossSalary;
+    public double Tax;
+
+    public double NetSalary() {
+        return GrossSalary - Tax;
+    }
+
+    public void IncreaseSalary(double percentage) {
+
+    }
+}
