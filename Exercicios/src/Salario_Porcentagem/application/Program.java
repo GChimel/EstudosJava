@@ -22,6 +22,11 @@ public class Program {
         System.out.println("Employee: " + employee.Name + ", $ " + employee.NetSalary());
 
         System.out.print("Which percentage to increase salary? ");
+        double percentage = sc.nextDouble();
+        employee.IncreaseSalary(percentage);
+
+        System.out.println("Updated data: " + employee.Name + ", " + employee.GrossSalary);
+
 
 
     }
