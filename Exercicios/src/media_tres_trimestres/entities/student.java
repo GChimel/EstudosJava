@@ -6,7 +6,8 @@ public class student {
     public double nota2;
     public double nota3;
 
-    public double trimestre_total {
-
+    public double nota_total() {
+        return nota1 + nota2 + nota3;
     }
+
 }
