@@ -1,6 +1,7 @@
-package modulosAntigos.application;
+package modulosAntigos.Triangle.application;
 
-import modulosAntigos.entities.Triangle;
+import modulosAntigos.Triangle.entities.Triangle;
+
 import java.util.Locale;
 import java.util.Scanner;
 

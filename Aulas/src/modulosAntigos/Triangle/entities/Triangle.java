@@ -1,4 +1,4 @@
-package modulosAntigos.entities;
+package modulosAntigos.Triangle.entities;
 
 public class Triangle {
     public double a;
