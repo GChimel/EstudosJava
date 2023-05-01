@@ -22,7 +22,7 @@ public class vetores {
             soma += vetores[i];
         }
         double media = soma / qtdVetores;
-
+//
         System.out.printf("AVERAGE HEIGHT: %.2f", media);
 
         sc.close();
