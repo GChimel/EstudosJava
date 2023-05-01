@@ -1,5 +1,3 @@
 # 
-ARQUIVO ESPECÍFICO PARA O ESTUDO DA LINGUAGE JAVA
+Diretório para estudos e testes com a linguaguem java.
 #
-
-* Estudos e testes realizados perante o curso da uDemy
