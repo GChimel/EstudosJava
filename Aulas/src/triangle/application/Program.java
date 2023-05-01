@@ -1,6 +1,6 @@
-package application;
+package triangle.application;
 
-import entities.Triangle;
+import triangle.entities.Triangle;
 
 import java.util.Locale;
 import java.util.Scanner;
