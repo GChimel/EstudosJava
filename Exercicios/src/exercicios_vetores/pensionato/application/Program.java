@@ -26,10 +26,12 @@ public class Program {
             String email = input.nextLine();
             System.out.print("Room: ");
             int room = input.nextInt();
-            rent[i] = new Rooms(name, email, room);
+            rent[room] = new Rooms(name, email, room);
         }
 
-        for(int i = 0; i < n; i++) {
+        System.out.println();
+        System.out.println("Busy rooms: ");
+        for(int i = 0; i < 10; i++) {
             if (rent[i] != null) {
                 System.out.println(rent[i].getRoom() + ": " + rent[i].getName() + ", " + rent[i].getEmail());
             }
