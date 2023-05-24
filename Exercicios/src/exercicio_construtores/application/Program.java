@@ -1,5 +1,5 @@
-package exercicio_Construtores.application;
-import exercicio_Construtores.entities.Bank;
+package exercicio_construtores.application;
+import exercicio_construtores.entities.Bank;
 import java.util.Locale;
 import java.util.Scanner;
 
