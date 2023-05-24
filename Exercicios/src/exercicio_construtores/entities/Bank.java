@@ -1,4 +1,4 @@
-package exercicio_Construtores.entities;
+package exercicio_construtores.entities;
 
 public class Bank {
 
