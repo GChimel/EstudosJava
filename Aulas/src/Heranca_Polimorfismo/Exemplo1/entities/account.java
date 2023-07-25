@@ -39,8 +39,9 @@ public class account {
         this.balance = balance;
     }
 
+    //+ 5.0 tax
     public void withdraw(double amount) {
-        balance -= amount;
+        balance -= amount + 5.0;
     }
     public void deposit(double amount) {
         balance += amount;

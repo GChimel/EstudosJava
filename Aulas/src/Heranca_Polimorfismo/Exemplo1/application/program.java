@@ -35,5 +35,20 @@ public class program {
             acc5.updateBalance();
             System.out.println("Update!");
         }
+
+        //Utilizando a taxa de 5.0
+        account acc6 = new account(1006, "Hilda", 1000.00);
+        acc6.withdraw(100.00);
+        System.out.println("Acc6 withdraw-account(100): "+ acc6.getBalance());
+
+        //Sem retirar a taxa de 5.0
+        account acc7 = new savingsAccount(1007, "Matheus", 1000.00, 0.5);
+        acc7.withdraw(100.00);
+        System.out.println("Acc7 withdraw-savingsAccount(100): "+ acc7.getBalance());
+
+        //Utilizando o super
+        account acc8 = new businessAccount(1008, "Bob", 1000.00, 500.00);
+        acc8.withdraw(200.00);
+        System.out.println(acc8.getBalance());
     }
 }
