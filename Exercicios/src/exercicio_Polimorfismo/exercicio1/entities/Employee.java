@@ -1,5 +1,4 @@
 package exercicio_Polimorfismo.exercicio1.entities;
-
 public class Employee {
 
     private String name;
