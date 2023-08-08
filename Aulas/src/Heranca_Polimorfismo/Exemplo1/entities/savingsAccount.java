@@ -1,6 +1,6 @@
 package Heranca_Polimorfismo.Exemplo1.entities;
 
-public class savingsAccount extends account{
+public class savingsAccount extends account {
 
     private Double interestRate;
 
