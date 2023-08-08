@@ -1,5 +1,4 @@
 package Tratamento_Excecoes.Exemplo1.application;
-
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
