@@ -1,6 +1,5 @@
 package Tratamento_Excecoes.Exemplo1.application;
 
-import java.sql.SQLOutput;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
