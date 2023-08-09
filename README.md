@@ -1,3 +1,3 @@
 # 
-*Diretório para estudos e testes com a linguaguem java*
+*Diretório para estudos e testes com a linguagem java*
 #
