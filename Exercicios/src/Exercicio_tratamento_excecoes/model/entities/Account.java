@@ -61,8 +61,6 @@ public class Account {
         if (amount > withdrawLimit) {
             throw new DomainException("The amount execeeds withdraw limit");
         }
-
         balance -= amount;
-
     }
 }
