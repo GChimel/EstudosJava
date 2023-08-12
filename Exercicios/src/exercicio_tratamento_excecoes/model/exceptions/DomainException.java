@@ -1,4 +1,4 @@
-package Exercicio_tratamento_excecoes.model.exceptions;
+package exercicio_tratamento_excecoes.model.exceptions;
 
 import java.io.Serial;
 

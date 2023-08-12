@@ -1,7 +1,7 @@
-package Exercicio_tratamento_excecoes.application;
+package exercicio_tratamento_excecoes.application;
 
-import Exercicio_tratamento_excecoes.model.entities.Account;
-import Exercicio_tratamento_excecoes.model.exceptions.DomainException;
+import exercicio_tratamento_excecoes.model.entities.Account;
+import exercicio_tratamento_excecoes.model.exceptions.DomainException;
 
 import java.util.Locale;
 import java.util.Scanner;
